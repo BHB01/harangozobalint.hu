@@ -1,0 +1,17 @@
+# A PaperMod hu.yaml-ből hiányzó kulcsok (a téma fordítását egészíti ki).
+- id: home
+  translation: "Főoldal"
+
+- id: words
+  translation:
+    one: "1 szó"
+    other: "{{ .Count }} szó"
+
+- id: edit_post
+  translation: "Szerkesztés"
+
+- id: code_copy
+  translation: "másolás"
+
+- id: code_copied
+  translation: "másolva!"

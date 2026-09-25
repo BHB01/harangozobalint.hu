@@ -1,0 +1,48 @@
+baseURL: https://harangozobalint.hu/
+locale: hu  # = languageCode (Hugo 0.158+ óta így hívják)
+defaultContentLanguage: hu
+title: Harangozó Bálint
+theme: PaperMod
+
+enableRobotsTXT: true
+
+permalinks:
+  page:
+    posts: /irasok/:slug/
+  section:
+    posts: /irasok/
+
+params:
+  defaultTheme: auto
+  ShowReadingTime: true
+  ShowToc: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+
+  homeInfoParams:
+    Title: Harangozó Bálint
+    # TODO: ellenőrizd/cseréld – a Rólam szövegéből összerakott mondat
+    Content: Fejlesztő vagyok Budapesten; ez az oldal az építési naplóm – azt írom le, amit megértettem, amit mértem, és ami nem működött.
+
+  socialIcons:
+    - name: linkedin
+      url: TODO
+    - name: email
+      url: TODO
+    - name: github
+      url: TODO
+
+menu:
+  main:
+    - identifier: irasok
+      name: Írások
+      url: /irasok/
+      weight: 10
+    - identifier: most
+      name: Most
+      url: /most/
+      weight: 20
+    - identifier: rolam
+      name: Rólam
+      url: /rolam/
+      weight: 30

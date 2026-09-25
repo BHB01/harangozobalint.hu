@@ -1,0 +1,2 @@
+# Csak `hugo server` alatt: a jövőbeli dátumú posztok is látszanak.
+buildFuture: true
