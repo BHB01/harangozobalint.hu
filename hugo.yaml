@@ -21,7 +21,7 @@ params:
 
   homeInfoParams:
     Title: Harangozó Bálint
-    # TODO: ellenőrizd/cseréld – a Rólam szövegéből összerakott mondat
+    # TODO: cseréld – a (törölt) Rólam szövegéből összerakott mondat
     Content: Fejlesztő vagyok Budapesten; ez az oldal az építési naplóm – azt írom le, amit megértettem, amit mértem, és ami nem működött.
 
   socialIcons:
@@ -38,7 +38,3 @@ menu:
       name: Írások
       url: /irasok/
       weight: 10
-    - identifier: rolam
-      name: Rólam
-      url: /rolam/
-      weight: 30
