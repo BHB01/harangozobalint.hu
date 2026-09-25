@@ -38,10 +38,6 @@ menu:
       name: Írások
       url: /irasok/
       weight: 10
-    - identifier: most
-      name: Most
-      url: /most/
-      weight: 20
     - identifier: rolam
       name: Rólam
       url: /rolam/
